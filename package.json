@@ -1,0 +1,34 @@
+{
+  "name": "http-i18n",
+  "version": "0.0.2",
+  "description": "parse language url param and http header",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/coffeescript/bin/coffee -c *.coffee",
+    "test": "./node_modules/coffeescript/bin/coffee test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/orangeman/http-i18n.git"
+  },
+  "keywords": [
+    "language",
+    "i18n",
+    "http",
+    "request",
+    "header"
+  ],
+  "author": "flo@sonnenstreifen.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangeman/http-i18n/issues"
+  },
+  "homepage": "https://github.com/orangeman/http-i18n#readme",
+  "devDependencies": {
+    "coffeescript": "^1.12.4",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "accept-language-parser": "^1.4.0"
+  }
+}
