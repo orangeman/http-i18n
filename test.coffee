@@ -28,4 +28,6 @@ test "url param overwrites http header", (t)  ->
     url: "http://foo.bar/baz?foo=bar&lang=de&bar=baz"
     headers: "accept-language": "en-GB,en-US;q=0.9,fr-CA;q=0.7,en;q=0.8"
   t.equal i18n(req), "de"
+  req.url = "http://foo.bar/baz?foo=bar&lang=de"
+  t.equal i18n(req), "de"
   t.end()

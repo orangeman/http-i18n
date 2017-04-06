@@ -1,6 +1,6 @@
 {
   "name": "http-i18n",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "parse language url param and http header",
   "main": "index.js",
   "scripts": {
